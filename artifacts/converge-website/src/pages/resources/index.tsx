@@ -119,7 +119,7 @@ export default function ResourcesPage() {
       ))}
 
       {/* CTA */}
-      <section className="py-24 px-4 md:px-8 bg-[#0A0A0A] text-white text-center">
+      <section className="py-24 px-4 md:px-8 bg-midnight text-white text-center">
         <div className="container mx-auto max-w-2xl">
           <h2 className="text-4xl font-serif mb-6">Get the latest from Converge.</h2>
           <p className="text-white/60 mb-10">New guides, reports, and case studies delivered to your inbox monthly.</p>

@@ -112,7 +112,7 @@ export default function PricingPage() {
                 variants={fadeUp}
                 initial="hidden"
                 animate="visible"
-                className={`flex flex-col p-8 md:p-10 border-b md:border-b-0 md:border-r last:border-r-0 last:border-b-0 ${tier.highlight ? 'bg-[#0A0A0A] text-white' : 'bg-white'}`}
+                className={`flex flex-col p-8 md:p-10 border-b md:border-b-0 md:border-r last:border-r-0 last:border-b-0 ${tier.highlight ? 'bg-midnight text-white' : 'bg-background'}`}
               >
                 <div className="mb-8">
                   {tier.highlight && (
@@ -191,7 +191,7 @@ export default function PricingPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-24 px-4 md:px-8 bg-[#0A0A0A] text-white text-center">
+      <section className="py-24 px-4 md:px-8 bg-midnight text-white text-center">
         <div className="container mx-auto max-w-2xl">
           <h2 className="text-4xl md:text-5xl font-serif mb-6">Start with a conversation.</h2>
           <p className="text-white/60 text-lg mb-10">

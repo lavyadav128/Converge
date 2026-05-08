@@ -113,7 +113,7 @@ export default function AboutPage() {
       </section>
 
       {/* Stats */}
-      <section className="py-24 px-4 md:px-8 bg-[#0A0A0A] text-white">
+      <section className="py-24 px-4 md:px-8 bg-deep-slate text-white">
         <div className="container mx-auto max-w-5xl">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-0">
             {[

@@ -41,7 +41,7 @@ export default function CaseStudyPage() {
       </section>
 
       {/* Metrics Band */}
-      <section className="py-16 bg-[#0A0A0A] text-white">
+      <section className="py-16 bg-deep-slate text-white">
         <div className="container mx-auto px-4 md:px-8 max-w-5xl">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-0">
             {[

@@ -138,7 +138,7 @@ export default function NewsroomPage() {
       </section>
 
       {/* Press contact */}
-      <section className="py-24 px-4 md:px-8 bg-[#0A0A0A] text-white">
+      <section className="py-24 px-4 md:px-8 bg-midnight text-white">
         <div className="container mx-auto max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-4xl font-serif mb-4">Press contact.</h2>
