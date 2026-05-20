@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: converge
+    runtime: static
+    rootDir: artifacts/converge-website
+    buildCommand: corepack enable && pnpm install --no-frozen-lockfile && pnpm run build
+    staticPublishPath: ./dist
+    envVars:
+      - key: PORT
+        value: 5173
+      - key: BASE_PATH
+        value: /
